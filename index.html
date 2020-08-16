@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown Previewer | Vanilla JS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ccc0ec0309.js" crossorigin="anonymous"></script><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+
+<div id="container">
+  <div id="editor-container">
+    <div id="editor-title">
+      <p>Editor</p>
+      <button id="editor-resize" onClick="resize()"><i class="fas fa-expand-alt"></i></button>
+    </div>
+    <textarea id="editor" autofocus></textarea>
+  </div>
+  <div id="preview"></div>
+</div>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
